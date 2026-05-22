@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offline — SkyAxis</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #f8fafc;
+      font-family: system-ui, sans-serif;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    .icon { font-size: 4rem; margin-bottom: 1.5rem; }
+    h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: 0.75rem; }
+    p { color: #94a3b8; max-width: 380px; line-height: 1.6; margin-bottom: 2rem; }
+    a {
+      background: #0ea5e9;
+      color: white;
+      padding: 0.75rem 2rem;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover { background: #38bdf8; }
+  </style>
+</head>
+<body>
+  <div class="icon">✈️</div>
+  <h1>You're offline</h1>
+  <p>No internet connection. Your cached bookings are still available — go back to check them.</p>
+  <a href="/my-bookings">View My Bookings</a>
+</body>
+</html>
