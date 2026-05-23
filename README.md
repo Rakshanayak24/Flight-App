@@ -6,7 +6,7 @@ A production-ready Flight Management web application built with Next.js 14, Supa
 
 ## 🚀 Live Demo
 
-> Deploy to Vercel and update this link.
+> https://flight-app-iusv-33n3ovmck-rakshas-projects-7c87634c.vercel.app/
 
 ---
 
